@@ -1,0 +1,82 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: serif;
+}
+
+h1 {
+  color: blueviolet;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li {
+  font-size: 20px;
+}
+
+article header p {
+  font-style: italic;
+}
+
+/* footer p {
+  font-size: 14px;
+} 
+*/
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.listImage {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  color: red;
+}
+
+li:nth-child(odd) {
+  font-size: 24px;
+}
+
+article p:last-child {
+  color: lightblue;
+}
